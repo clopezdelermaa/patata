@@ -14,6 +14,22 @@ public class Ayuda {
     private String ayuda= "esto es una ayuda";
     
     private int n= 666;
+
+    public String getAyuda() {
+        return ayuda;
+    }
+
+    public void setAyuda(String ayuda) {
+        this.ayuda = ayuda;
+    }
+
+    public int getN() {
+        return n;
+    }
+
+    public void setN(int n) {
+        this.n = n;
+    }
     
     public void pedirAyuda () {
         System.out.println(ayuda + " " + n);
